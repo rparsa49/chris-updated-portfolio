@@ -34,7 +34,7 @@ const coursesData = [
     title: "ESE 555",
     description:
       "An Advanced VLSI Design Course. This course describes the integrated circuit design process. Main topics included CMOS processing technology, VLSI design methodologies, and MOS digital circuit analysis/history. Integrated circuits were introduced throughout the course using VLSI design tools (CADENCE). I now have a much clearer understanding of the physical implementation of all the chips and logic components utilized in other classes, and have a further appreciation for the intricate designs at play for the simplest of circuits. I have experienced typical low level VLSI design/production flow. Built and Simulated a CMOS 45nm D-FlipFlop, Based on the free 45nmPDK Library Suite from Cadence.      Dissimilation an optimization of NMOS and PMOS sizing for cleaner signal, symmetrica fallrise and delay.",
-    grade: "B+",
+    grade: "AU",
   },
   {
     id: 6,

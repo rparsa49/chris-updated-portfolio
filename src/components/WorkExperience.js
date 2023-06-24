@@ -13,10 +13,17 @@ const workExperienceData = [
     id: 2,
     title: "Media Systems Engineer",
     company: "DOiT",
-    duration: "Jan 2021 - Apr 2022",
+    duration: "August 2022 - Present",
     description:
       "Our job with CES MSE had us managing and up-keeping ALL of the university classrooms through maintenance, refurbishing and preventive checks. The tools we used allowed us to see equipment status, and administrative online interfaces. Interfaced with ticketing and servicing platforms used to track known issues. Collaborated within company meetings of 10+ members to improve quality of data logging. Initiated changes proposed led to a 30% increased amount of testing. Wording of each test was reworked. Employed Google Suite, company chats, and video calls to constantly update supervisors on status of rooms/ disrepair/ brainstorming fixes. Our position gave us an incredible amount of digital tools, training, access to coworkers ( who were experts in their fields ), and independence when it came to classroom monitoring, fixing, and troubleshooting. We were used for both data collection, and sentinel work which the head engineers did not have the time for. It gave me a great sense of purpose and drive to know I was fixing and keeping the universities’ most valuable assets up and running for the benefit of the students, faculty, and staff. Knowing everyday I am enabling better, more efficient and easy learning all while using my talents to best benefit others around me.",
   },
+  {
+    id: 3,
+    title: "Freelance Macbook Repair",
+    company: "Self Employed",
+    duration: "August 2021 - Present",
+    description: "In college so far I have completed various repairs / maintenance on personal computers all over campus. Battery replacements, repasting components, cable replacements, heat sink replacements, and full disassembly for display replacements. MacBook repair and computer tinkering has always been a large passion of mine and i've turned it into a side business."
+  }
 ];
 
 const WorkExperience = () => {
@@ -37,7 +44,6 @@ const WorkExperience = () => {
               <h4 className="text-gray-600">{experience.company}</h4>
               <p className="mt-2 text-gray-600">{experience.duration}</p>
               <p className="mt-4 text-gray-600">{experience.description}</p>
-              <div className="absolute w-3 h-3 bg-gray-300 rounded-full top-1/2 left-full transform -translate-y-1/2"></div>
             </div>
           ))}
         </div>
