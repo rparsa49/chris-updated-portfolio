@@ -27,7 +27,7 @@ const Popup = () => {
           className="bg-green-500 hover:bg-green-600 text-white rounded-lg px-4 py-2 text-lg"
           onClick={handleLinkedInClick}
         >
-          Visit LinkedIn
+          Visit Linkedin
         </button>
       </div>
     </div>
