@@ -55,7 +55,7 @@ const coursesData = [
     title: "ESE 305",
     description:
     "This course provides an introduction to signals and systems, covering the manipulation of simple analog and digital signals. Students will learn about the relationship between frequencies of analog signals and their sampled sequences, as well as concepts of linearity, time-invariance, and causality in systems. The course also covers topics such as convolution, FIR and IIR digital filters, differential and difference equations, Laplace transform, Z-transform, Fourier series, Fourier transform, stability, frequency response, and filtering. This foundational course is essential for subsequent courses in control, communication, electronics, and digital signal processing.",
-    grade: "OG",
+    grade: "C+",
   },
 ];
 

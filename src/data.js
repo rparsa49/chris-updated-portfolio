@@ -19,5 +19,12 @@ export const projects = [
         description: "Built and Simulated a CMOS 45nm D-FlipFlop, Based on the free 45nmPDK Library Suite from Cadence. Dissimilation an optimization of NMOS and PMOS sizing for cleaner signal, symmetrica fallrise and delay.",
         image: process.env.PUBLIC_URL + "/project2.png",
         link: "https://rparsa49.github.io/chris-portfolio/DFF%20Report.pdf"
+    },
+    {
+        title: "Lidar-Guided Automated Driving Project",
+        subtitle: "C, PetaLinux, XILINX SDK 20127.2, Tera Term",
+        description: "The primary objective was to explore its potential in autonomous driving systems, a domain currently gaining considerable attention. Leveraging available modules specialized in data handling and power generation, the project aimed to achieve feasible and autonomous operations.",
+        image: process.env.PUBLIC_URL + "/75ARM1_conduction_cooled.png",
+        link: "https://github.com/CypherVault/NAI-75ARM1-SelfNavigationProgram"
     }
 ];
