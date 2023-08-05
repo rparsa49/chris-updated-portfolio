@@ -1,32 +1,59 @@
-import React from 'react';
-import headshot from './headshot.png';
+import React from "react";
+import headshot from "./headshot.png";
 
-export default function About() {
+const About = () => {
   return (
-    <section id='about'>
-      <div className='container mx-auto flex px-10 py-20 md:flex-row items-center'>
-        <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
-          <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
-            Hi, I'm Chris!
-            <br className='hidden lg:inline-block'></br>
-            I'm a Computer Engineering Junior at SBU.
+    <div className="flex h-screen bg-gray-800">
+      <div className="w-1/2 flex flex-col justify-center items-center">
+        <div className="text-5xl font-bold text-center mb-6">
+          <h1 className="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 p-4">
+            Hey, I'm Chris.
           </h1>
-          <p className='mb-8 leading-relaxed'>
-            I'm an aspiring microchip/embedded system designer. My current interests are in FRONT END VLSI/Computer Architecture, AV Systems, and VHDL entity creation. I want to be part of the next generation of chip designers & hardware engineers. I want to make computing more energy efficient and affordable for the world throughout my career.
-          </p>
-          <div className='flex justify-center'>
-            <a href="#projects" className='inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg'>
-              See My Past Work
-            </a>
-            <a href="mailto:Christopher.nielsen@stonybrook.edu" className='ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg'>
-              Reach Out To Me
-            </a>
-          </div>
+          <h3 className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 p-4">I'm a Computer Engineering Junior at SBU.</h3>
         </div>
-        <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
-          <img className='object-cover object-center h-64 w-64 rounded-full drop-shadow-lg' alt='chris' src={headshot} />
+        <div className="mockup-code">
+          <pre data-prefix="$">
+            <code>whois.chris</code>
+          </pre>
+          <pre data-prefix=">" className="text-warning">
+            <code>An aspiring microchip/embedded system designer.</code>
+          </pre>
+          <pre data-prefix=">" className="text-warning">
+            <code>Interested in: FRONT END VLSI/Computer Architecture, AV Systems, and VHDL entity creation</code>
+          </pre>
+          <pre data-prefix=">" className="text-success">
+            <code>Scroll down to see some more about me!</code>
+          </pre>
         </div>
       </div>
-    </section>
+      <div className="w-1/2 flex flex-col justify-center items-center">
+        <div className="relative w-80 h-80 rounded-full overflow-hidden shadow-lg">
+          <img
+            src={headshot}
+            alt="Profile"
+            className="object-cover w-full h-full"
+          />
+        </div>
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-8 text-white text-2xl">
+          Scroll down
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6 mx-auto mt-2 animate-bounce"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M19 14l-7 7m0 0l-7-7m7 7V3"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
   );
-}
+};
+
+export default About;
