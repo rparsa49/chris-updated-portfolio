@@ -3,31 +3,59 @@ import headshot from "./headshot.png";
 
 const About = () => {
   return (
-    <div className="flex h-screen bg-gray-800">
-      <div className="w-1/2 flex flex-col justify-center items-center">
+    <div className="flex flex-col lg:flex-row h-screen w-screen bg-gray-800">
+      <div className="w-full lg:w-1/2 flex flex-col justify-center items-center p-4 lg:p-8">
         <div className="text-5xl font-bold text-center mb-6">
-          <h1 className="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 p-4">
+          <h1 className="font-extrabold text-transparent text-6xl lg:text-7xl bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 p-4">
             Hey, I'm Chris.
           </h1>
-          <h3 className="font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 p-4">I'm a Computer Engineering Junior at SBU.</h3>
+          <h3 className="font-extrabold text-transparent text-3xl lg:text-4xl bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 p-4">
+            I'm a Computer Engineering Junior at SBU.
+          </h3>
         </div>
-        <div className="mockup-code">
-          <pre data-prefix="$">
-            <code>whois.chris</code>
-          </pre>
-          <pre data-prefix=">" className="text-warning">
-            <code>An aspiring microchip/embedded system designer.</code>
-          </pre>
-          <pre data-prefix=">" className="text-warning">
-            <code>Interested in: FRONT END VLSI/Computer Architecture, AV Systems, and VHDL entity creation</code>
-          </pre>
-          <pre data-prefix=">" className="text-success">
-            <code>Scroll down to see some more about me!</code>
-          </pre>
+        <div className="w-full">
+          <div className="mockup-code m-10">
+            <pre data-prefix="$">
+              <code>who is chris</code>
+            </pre>
+            <pre data-prefix=">" className="text-warning">
+              <code>
+                An aspiring single board computer, 
+              </code>
+              <pre data-prefix="">
+                <code>
+                  systems, and
+                computer/motherboard designer.
+                </code>
+              </pre>
+            </pre>
+            <pre data-prefix=">" className="text-warning">
+              <code>Intern experience in the defense industry.</code>
+            </pre>
+            <pre data-prefix=">" className="text-warning">
+              <code>
+                Passion for motherboard board level repair 
+              </code>
+            </pre>
+            <pre data-prefix="" className="text-warning">
+              <code>
+                and debugging,
+                commercial AV systems, 
+              </code>
+            </pre>
+            <pre data-prefix="" className="text-warning">
+              <code>
+                and enthusiast Macintosh hobbies.
+              </code>
+            </pre>
+            <pre data-prefix=">" className="text-success">
+              <code>Scroll down to see some more about me!</code>
+            </pre>
+          </div>
         </div>
       </div>
-      <div className="w-1/2 flex flex-col justify-center items-center">
-        <div className="relative w-80 h-80 rounded-full overflow-hidden shadow-lg">
+      <div className="w-full lg:w-1/2 flex flex-col justify-center items-center p-4 lg:p-8">
+        <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-lg">
           <img
             src={headshot}
             alt="Profile"

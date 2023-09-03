@@ -40,23 +40,37 @@ const coursesData = [
     id: 6,
     title: "ESE 382",
     description:
-    "This course covered the design and implementation of digital systems using VHDL and programmable logic devices (CPLDs and FPGAs). We learned about design methodology, VHDL syntax, entities, architectures, test benches [ exhaustive, self-checking, nonexhaustive, and user stimulated with real-time debugging ], subprograms, packages, and libraries. Also, the course covered the architecture and internal characteristics of PLDs and FPGAs. In the laboratory, students will apply these concepts by writing VHDL descriptions and test benches, compiling and stimulating designs, and programming CPLDs or FPGAs for bench testing with the synthesized and functional JED config file. By the end of the course, students will have developed practical skills in digital system design and implementation. Laboratory tasks and exam entity designs were presented in a customer order / technical requirement fashion, further leading to my engrossment/enjoyment of the class. This class has been one of the most impactful classes I've ever taken, and was genuinely fun to problem solve, work with different architectures, and create digital machines which were deployed out into the world (in the form of antique and obsolete FPGAs on lab benches).",
+      "This course covered the design and implementation of digital systems using VHDL and programmable logic devices (CPLDs and FPGAs). We learned about design methodology, VHDL syntax, entities, architectures, test benches [ exhaustive, self-checking, nonexhaustive, and user stimulated with real-time debugging ], subprograms, packages, and libraries. Also, the course covered the architecture and internal characteristics of PLDs and FPGAs. In the laboratory, students will apply these concepts by writing VHDL descriptions and test benches, compiling and stimulating designs, and programming CPLDs or FPGAs for bench testing with the synthesized and functional JED config file. By the end of the course, students will have developed practical skills in digital system design and implementation. Laboratory tasks and exam entity designs were presented in a customer order / technical requirement fashion, further leading to my engrossment/enjoyment of the class. This class has been one of the most impactful classes I've ever taken, and was genuinely fun to problem solve, work with different architectures, and create digital machines which were deployed out into the world (in the form of antique and obsolete FPGAs on lab benches).",
     grade: "B+",
   },
   {
     id: 7,
     title: "ESE 272",
     description:
-    "In this nonlinear electronics class, we delved into the foundations of circuit design, focusing on the architecture of a modern electronics system interfacing with sensors, function generators, high-performance oscilloscopes, and DC / AC power supplies. We explored the modeling of non-linear devices, such as diode and MOS transistors, and their fundamental properties for designing analog (amplification) and digital (switching) IC circuits within the program LTSPICE. We also delved into the ideal and non-ideal models of operational amplifiers, feedback, and stability concepts. Additionally, we explored a range of signal conditioning circuits, including fixed-gain, difference, and instrumentation amplifiers, active filters, signal shaping circuits (e.g. rectifier, clipper, peak detector), oscillators, sample and hold circuits, data converters, digital signal processing platforms, and radios. This course both demystified electricity and the building block components of both logic circuits and appliances/machinery, while also raising more questions than I had before. However, the context and science presented in this class only made the small-scale details and physics behind electrical engineering courses more impressive in my eyes.",
+      "In this nonlinear electronics class, we delved into the foundations of circuit design, focusing on the architecture of a modern electronics system interfacing with sensors, function generators, high-performance oscilloscopes, and DC / AC power supplies. We explored the modeling of non-linear devices, such as diode and MOS transistors, and their fundamental properties for designing analog (amplification) and digital (switching) IC circuits within the program LTSPICE. We also delved into the ideal and non-ideal models of operational amplifiers, feedback, and stability concepts. Additionally, we explored a range of signal conditioning circuits, including fixed-gain, difference, and instrumentation amplifiers, active filters, signal shaping circuits (e.g. rectifier, clipper, peak detector), oscillators, sample and hold circuits, data converters, digital signal processing platforms, and radios. This course both demystified electricity and the building block components of both logic circuits and appliances/machinery, while also raising more questions than I had before. However, the context and science presented in this class only made the small-scale details and physics behind electrical engineering courses more impressive in my eyes.",
     grade: "✔",
   },
   {
     id: 8,
     title: "ESE 305",
     description:
-    "This course provides an introduction to signals and systems, covering the manipulation of simple analog and digital signals. Students will learn about the relationship between frequencies of analog signals and their sampled sequences, as well as concepts of linearity, time-invariance, and causality in systems. The course also covers topics such as convolution, FIR and IIR digital filters, differential and difference equations, Laplace transform, Z-transform, Fourier series, Fourier transform, stability, frequency response, and filtering. This foundational course is essential for subsequent courses in control, communication, electronics, and digital signal processing.",
+      "This course provides an introduction to signals and systems, covering the manipulation of simple analog and digital signals. Students will learn about the relationship between frequencies of analog signals and their sampled sequences, as well as concepts of linearity, time-invariance, and causality in systems. The course also covers topics such as convolution, FIR and IIR digital filters, differential and difference equations, Laplace transform, Z-transform, Fourier series, Fourier transform, stability, frequency response, and filtering. This foundational course is essential for subsequent courses in control, communication, electronics, and digital signal processing.",
     grade: "C+",
   },
+  {
+    id: 9,
+    title: "ESE 345",
+    description:
+      "This course focused on the fundamental techniques of designing and evaluating modern computer architectures and tradeoffs present at the hardware/software boundary. The emphasis is on instruction set design, processor design, memory and parallel processing. Students will undertake a design project using a hardware description language and modern CAD tools.",
+    grade: "IP",
+  },
+  {
+    id: 10,
+    title: "ESE 323",
+    description:
+      "ESE 323 was a prototyping course which introduced students to modern circuit prototyping techniques and packaging. Students will demonstrate these techniques by building and testing a microcontroller-based project utilizing surface mounted components on a student-designed circuit board. This class used Auto Desk Fusion 360 as our main design interface.",
+    grade: "IP"
+    },
 ];
 
 const Courses = () => {

@@ -9,9 +9,10 @@ const volunteeringData = [
   },
   {
     id: 2,
-    title: "Scouting's National Honor Society Order of the Arrow - 3 Year County Treasurer",
+    title:
+      "Scouting's National Honor Society Order of the Arrow - 3 Year County Treasurer",
     description:
-      "Scouting has given me a vector to give back to the Scouting program as a whole, having elected me for the position of Treasurer for the County Wide Honor Society. Within my 3 years in this volunteer role (for the Scouting community) I have helped facilitate financial negotiations/planning of our community service/ hosted events, enhanced our record keeping, reestablished faith/trust from the scouting membership in the Treasury, increased transparency, increased communication, created training documents, and engineered a Queue/Submission System for budget proposals and reimbursements. All of this work was done in order to make America's youth in scouting have an easier time within their honor society and to make our program more conflict-free for the benefit of the membership and county as a whole.",
+      "Being involved as an experienced Eagle Scout in Theodore Roosevelt council, I have been able to give back to the Scouting community as a whole. I was elected for the position of Treasurer for the County Wide Honor Society. Throughout my 3 years in this volunteer role (for the Scouting community), I had helped facilitate financial negotiations, planning of our community service, hosted events, enhanced our record keeping, reestablished faith and trust from the scouting membership in the Treasury, increased transparency and communication, created training documents, and engineered a Queue and Submission System for budget proposals and reimbursements. All of this work was done in order to make America's youth in scouting have an easier time within their honor society and to make our program more conflict-free for the benefit of the membership and county as a whole.",
   },
 ];
 
