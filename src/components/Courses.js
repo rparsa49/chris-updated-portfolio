@@ -61,28 +61,16 @@ const coursesData = [
     id: 9,
     title: "ESE 345",
     description:
-      "This course focused on the fundamental techniques of designing and evaluating modern computer architectures and tradeoffs present at the hardware/software boundary. The emphasis is on instruction set design, processor design, memory and parallel processing. Students will undertake a design project using a hardware description language and modern CAD tools.",
-    grade: "IP",
+      "This course focuses on the fundamental techniques of designing and evaluating modern computer architectures and tradeoffs present at the hardware/software boundary. The emphasis is on instruction set design, processor design, memory and parallel processing. Students were required to complete a Hardware Description Language project and design a 4-Stage Multimedia Unit Pipelined Processor.",
+    grade: "B+",
   },
   {
     id: 10,
     title: "ESE 323",
     description:
-      "ESE 323 was a prototyping course which introduced students to modern circuit prototyping techniques and packaging. Students will demonstrate these techniques by building and testing a microcontroller-based project utilizing surface mounted components on a student-designed circuit board. This class used Auto Desk Fusion 360 as our main design interface.",
-    grade: "IP"
-    },
-    {
-      id: 11,
-      title: "ESE 345",
-      description: "This course focuses on the fundamental techniques of designing and evaluating modern computer architectures and tradeoffs present at the hardware/software boundary. The emphasis is on instruction set design, processor design, memory and parallel processing. Students were required to complete a Hardware Description Language project and design a 4-Stage Multimedia Unit Pipelined Processor.",
-      grade: "B+"
-    },
-    {
-      id: 12,
-      title: "ESE 323",
-      description: "In the course students were required to design, fabricate, and test a prototype device using a custom made circuit board, surface mount components, and a 3D printed enclosure. Topics include printed circuit design, active and passive component selection, design for testability, solid modeling, and 3D printing. Labs included practicing surface mount component soldering techniques, electrical limits of trace design, reflow ovens, and other various motherboard design concepts.",
-      grade: "?"
-    }
+      "In the course students were required to design, fabricate, and test a prototype device using a custom made circuit board, surface mount components, and a 3D printed enclosure. Topics include printed circuit design, active and passive component selection, design for testability, solid modeling, and 3D printing. Labs included practicing surface mount component soldering techniques, electrical limits of trace design, reflow ovens, and other various motherboard design concepts.",
+    grade: "IP",
+  }
 ];
 
 const Courses = () => {
