@@ -8,15 +8,15 @@ import Credit from "./components/Credits";
 import Popup from "./components/Popup";
 
 export default function App(){
-    return(
-    <main className="text-gray-400 bg-gray-900 body-font">
+    return (
+      <main className="text-gray-400 bg-gray-900 body-font">
         <Popup />
         <About />
-        <Courses />
         <WorkExperience />
-        <Volunteering />
         <Projects />
+        <Courses />
+        <Volunteering />
         <Credit />
-        </main>  
+      </main>
     );
 }

@@ -1,20 +1,5 @@
 import React from "react";
-
-const volunteeringData = [
-  {
-    id: 1,
-    title: "Probationary Volunteer Fire Fighting",
-    description:
-      "For the past 2 years I have been in the early stages of training with my local fire department, Atlantic Hook & Ladder Company No.1 Port Washington New York. I initially learned the ropes around the engine house in regards to the tools, learning terminology, etc. Once sworn in I began immediately responding to local motor-vehicle/residential fire emergencies, assisting with clean up efforts, midnight fire detector alarms, and numerous unattended smoky kitchens. Now in my second year I have passed through Nassau County Fire Service Academy's Essentials training, which has prepared me for an even more difficult training during the upcoming summer. I enjoy giving my body and time to the fire service, knowing I am giving back to the community which has enabled and cradled me since I was little.",
-  },
-  {
-    id: 2,
-    title:
-      "Scouting's National Honor Society Order of the Arrow - 3 Year County Treasurer",
-    description:
-      "Being involved as an experienced Eagle Scout in Theodore Roosevelt council, I have been able to give back to the Scouting community as a whole. I was elected for the position of Treasurer for the County Wide Honor Society. Throughout my 3 years in this volunteer role (for the Scouting community), I had helped facilitate financial negotiations, planning of our community service, hosted events, enhanced our record keeping, reestablished faith and trust from the scouting membership in the Treasury, increased transparency and communication, created training documents, and engineered a Queue and Submission System for budget proposals and reimbursements. All of this work was done in order to make America's youth in scouting have an easier time within their honor society and to make our program more conflict-free for the benefit of the membership and county as a whole.",
-  },
-];
+import { volunteeringData } from "../data";
 
 const Volunteering = () => {
   return (

@@ -1,29 +1,5 @@
 import React from "react";
-
-const workExperienceData = [
-  {
-    id: 1,
-    title: "Test Engineer Intern",
-    company: "North Atlantic Industries",
-    duration: "June 2023 - December 2023",
-    description: "As an employee in the Test Engineering team, my role involved working with the Software Engineering Team to improve/develop working test programs that verify the functional operations of NAI products. Most of the working day required my circuit analysis skills to test and debug products at the component level. Additionally, I implemented test procedures and worked with engineers to learn how to use necessary test equipment. I also assisted the Production team in diagnosing and repairing failed production items, as well as bringing boards up to functioning order through firmware and software flashing at the chip level. Most recently my role changed to a single board computer troubleshooting role, searching for and isolating systemic issues with high failure rate products, and with the collaboration of multiple teams we formulated a flowchart for finding issues, developed tools to debug malfunctioning boards, and overall improved product throughput. General requirements for this internship are being in an engineering degree, having working knowledge of electronic circuits, skills with reading data sheets and component specifications, familiarity with general-purpose test equipment, such as oscilloscopes, DMMs, and power sources, as well as knowledge of programming languages, such as C, C++. Other desired skills and abilities required for this internship are good oral and written communication skills, strong analytical and problem-solving skills, self-motivation, and a high degree of curiosity and desire to learn new things. The job specifically takes those who can 'take initiative and multi-task within a fast-paced environment'.",
-    },
-  {
-    id: 2,
-    title: "Media Systems Engineer",
-    company: "DOiT",
-    duration: "August 2022 - Present",
-    description:
-      "Our job with CES MSE had us managing and up-keeping ALL of the university classrooms through maintenance, refurbishing and preventive checks. The tools we used allowed us to see equipment status, and administrative online interfaces. Interfaced with ticketing and servicing platforms used to track known issues. Collaborated within company meetings of 10+ members to improve quality of data logging. Initiated changes proposed led to a 30% increased amount of testing. Wording of each test was reworked. Employed Google Suite, company chats, and video calls to constantly update supervisors on status of rooms/ disrepair/ brainstorming fixes. Our position gave us an incredible amount of digital tools, training, access to coworkers ( who were experts in their fields ), and independence when it came to classroom monitoring, fixing, and troubleshooting. We were used for both data collection, and sentinel work which the head engineers did not have the time for. It gave me a great sense of purpose and drive to know I was fixing and keeping the universities’ most valuable assets up and running for the benefit of the students, faculty, and staff. Knowing everyday I am enabling better, more efficient and easy learning all while using my talents to best benefit others around me.",
-  },
-  {
-    id: 3,
-    title: "Freelance Macbook Repair",
-    company: "Self Employed",
-    duration: "August 2021 - Present",
-    description: "In college so far I have completed various repairs / maintenance on personal computers all over campus. Battery replacements, repasting components, cable replacements, heat sink replacements, and full disassembly for display replacements. MacBook repair and computer tinkering has always been a large passion of mine and i've turned it into a side business."
-  }
-];
+import { workExperienceData } from "../data";
 
 const WorkExperience = () => {
   return (
